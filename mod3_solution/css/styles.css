@@ -1,0 +1,104 @@
+/* General Styles*/
+
+body 
+{
+  font-size: 16px;
+  color: #fff;
+  background-color: #9999ff;
+  font-family: Helvetica, sans-serif;
+}
+
+/***** Header Styles*****/
+
+#header-nav .container
+{
+	margin: 5px 0 0 0;
+	width: 100%;
+}
+
+#header-nav
+{
+	border-radius: 0;
+	border-bottom: 2px solid black;
+	margin: 0;
+}
+
+.navbar-header
+{
+	padding-bottom: 10px;
+}
+
+.navbar-brand h1
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus 
+{
+  text-decoration: none;
+}
+
+/* Drop Down Menu Styles*/
+
+#nav-list 
+{
+ 	margin-top: 0;
+}
+
+#nav-list a
+{
+	text-align: center;
+}
+
+/***** End Header Styles *****/
+
+/***** Heading *****/
+
+h2
+{
+	color: black;
+}
+
+/***** Main Body Styles *****/
+
+
+#main-content
+{
+	width: 90%;
+	height: 1000px;
+	padding: 0;
+}
+
+#main-sections
+{
+	background-color: #666699;
+	height: 1000px;
+}
+
+#main-sections h3
+{
+	margin: 20px 0 20px 0;
+	text-align: center;
+}
+
+.description
+{
+	margin: 10px 20px 10px 20px;
+	font-size: 15px;
+	line-height: 2em;
+}
+
+/***** Small Devices Only *****/
+
+@media (max-width: 767px)
+{
+	#main-content
+	{
+		width: 75%;
+	}
+}
+
+
+
+
